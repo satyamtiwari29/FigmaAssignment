@@ -1,0 +1,692 @@
+@import "font-css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+:root {
+    --orange: #ff5300;
+    --orange-bg: #fff7f4;
+    --black: #373737;
+    --dark-bg: #18191a;
+    --dark-view-1: #242526;
+    --dark-view-2: #3a3b3c;
+    --gray: #7b7b7b;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.menubar {
+    display: none;
+}
+
+.headnav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main {
+    background-color: var(--orange-bg);
+}
+
+.mainimgone {
+    padding: 50px 21px 50px 20px;
+
+}
+
+#mainheading {
+    text-align: center;
+    font-weight: 500;
+    line-height: 123.6%;
+}
+
+.mainpar {
+    text-align: center;
+}
+
+.mainbutton {
+    text-align: center;
+    padding: 25px 113px 50px 113px;
+}
+/* ==================About Us====================== */
+.aboutimgone {
+    padding: 50px 46.41px 50px 47.41px;
+}
+.aboutabout{
+    text-align: start;
+}
+.experienceheading{
+    text-align: start;
+}
+
+.aboutlogoone {
+    padding: 18px 0;
+}
+
+.aboutus {
+    text-align: center;
+}
+
+.aboutpar {
+    padding: 18px 0 25px 0px;
+}
+
+.aboutcard {
+    padding: 25px 0px;
+    box-shadow:  1px 1px 10px grey,1px 1px 10px grey;
+    width: 300px;
+    height: 200px;
+   margin: auto;
+   margin-bottom: 25px;
+}
+
+/* =================Our Experience ================*/
+   
+.experiencepage {
+    background-color: var(--orange-bg);
+    padding-top: 50px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-align: center;
+}
+
+.experiencehone {
+    padding: 18px 0;
+}
+
+.experiencelogotwo {
+    padding: 25px 0 50px 0;
+}
+
+.experiencecard {
+    background-color: var(--white);
+    margin-bottom: 25px;
+}
+
+.experiencechildcard {
+    padding: 71px 0 18px 0;
+
+}
+
+.experiencechlogo {
+    padding-bottom: 71px;
+}
+
+/* ==================Teammember================== */
+
+.teammember {
+    background-color: var(--white);
+    padding: 100px 16px;
+    text-align: center;
+}
+
+.teamhone {
+    margin: 18px 0;
+}
+
+.workername {
+    margin: 24px 0 12px 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+}
+
+.workposition {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+}
+
+.workerimg {
+    width: 270px;
+    height: 250px;
+    object-fit: fill;
+    margin: 10px;
+    position: relative;
+}
+
+.workerimg>img {
+    width: 100%;
+    height: 100%;
+}
+
+.profile {
+    display: flex;
+}
+
+.worksocialicon {
+    position: absolute;
+    top: 2px;
+    left: 70%;
+
+}
+
+.teammember .h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+}
+.employee{
+    display: none;
+}
+.employee4{
+    display: none;
+}
+
+/* =====================Our Work=========== */
+.ourwork {
+    text-align: center;
+    padding: 50px 16px;
+
+}
+
+.ourwork .par {
+
+    margin: 50px 0 18px 0;
+}
+
+.ourwork .h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+}
+
+.ourwork .h2 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+    margin-bottom: 25px;
+}
+
+.ourworkcard {
+    margin-top: 50px;
+    
+}
+
+.workcardimgone, .workcardimgthree{
+    margin: auto;
+    width: 213px;
+    height: 230px;
+   
+}
+.workcardimgtwo {
+    margin: auto;
+    width: 214px;
+    height: 280px;
+    
+}
+
+.workcardimgfour,.workcardimgsix{
+    margin: auto;
+    width: 213px;
+    height: 250px;
+    
+}
+.workcardimgfive{
+    margin: auto;
+    width: 213px;
+    height: 200px;
+    
+}
+
+.workcardimg{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+
+
+/* ==============Client Feedback==========*/
+.clientfeedback {
+    background-color: var(--orange-bg);
+}
+
+.clientfeedback .h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    padding-left: 34px;
+}
+
+.clientfeedback .h3 {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%;
+}
+
+.greatwords {
+    margin: 18px 0;
+}
+
+.authorname {
+    display: flex;
+    justify-content: center;
+    width: 150%;
+
+}
+
+.author {
+    background-color: var(--orange);
+    margin: 15px;
+    position: relative;
+    width: 292px;
+    height: 214px;
+   
+}
+
+
+
+.author .h4 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+}
+
+.clientname {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    margin: 50px 0 18px 0;
+}
+
+.clientfeedimg {
+    position: absolute;
+    top: 43px;
+    left: -20px;
+
+}
+
+/* ===============Our Blog=============== */
+/* ====================Commman============ */
+.center{
+    text-align: center;
+}
+
+span{
+    color: var(--orange);
+}
+/* ============================= */
+.blog{
+    
+    display: flex;
+    width: 200%;
+    margin: 19px 0;
+}
+.blogprofileh7{
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 123.6%;
+}
+.blogprofile> h6{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150.6%;
+margin: 6px 0 15px 0;
+
+}
+.blogprofile{
+    display: flex;
+   
+}
+
+.blogdetail{
+    width: 296px;
+    height: 220px;
+    box-shadow: 1px 1px 10px grey;
+    margin-left: 15px;
+    padding: 18px;
+}
+.blogprofiler{
+    display: flex;
+   
+}
+
+.eclipserect{
+    margin: 25px 0 50px 0;
+    text-align: center;
+}
+/* ============Contact Page=============== */
+
+.contacthone{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    text-align: center; 
+}
+.contacthtwo{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 123.6%; 
+    text-align: center; 
+}
+.contactcard{
+    padding: 18px 16px 70px 16px;
+    text-align: center;
+    margin: 18px;
+}
+.contactcardchild{
+    width: 343px;
+height: 224px;
+box-shadow: 1px 1px 8px gray;
+padding: 19px 0 30px 18px;
+position: relative;
+margin: auto;
+}
+.contactcenter{
+    text-align: center;
+}
+.contactcardchild >.h1{
+margin: 11px 0 34px 0;
+}
+.contactlogo{
+    position: absolute;
+   
+    top: 5px;
+}
+.contact1,.contact2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+}
+.contact2{
+margin:  10px 0 30px 0;
+}
+.contactimg1{
+    width: 261.81px;
+    height: 168.52px;
+     margin: auto; 
+}
+
+.message{
+    font-weight: 500;
+font-size: 25px;
+line-height: 123.6%;
+text-align: center;
+margin: 50px 0 18px 0;
+
+}
+.information{ 
+  
+    margin-left: 16px;
+}
+.information >.h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%; 
+}
+.info{
+    width: 343px;
+height: 60px;
+}
+.textinfo{
+    width: 343px;
+height: 163px;
+}
+.messagebutton{
+    margin: 25px 0 51px 0;
+}
+.googlemap{
+    width: 344px;
+height: 250px;
+margin-left: 16px;
+}
+.clientgooglogo{
+    width: 342px;
+height: 53px;
+margin: 50px 0 50px 16px;
+text-align: center;
+}
+
+/*=======================Footer====================== */
+
+.footer{
+    padding: 50px 16px;
+    background-color: var(--black);
+    color: var(--white);
+}
+.footer >.h1{
+    width: 129px;
+    height: 39px;
+    font-weight: 600;
+font-size: 31.25px;
+line-height: 123.6%;
+}
+.footer2> .h4{
+    
+font-weight: 400;
+font-size: 16px;
+line-height: 150.6%;
+}
+.footersocialicon{
+    display: flex;
+    margin: 18px 0 50px 0;
+}
+.footersocialicon> .footimg1{
+    margin-top: 9px;
+}
+.footcompany{
+    font-weight: 600;
+font-size: 31.25px;
+line-height: 123.6%;
+margin: 50px 0 18px 0;
+}
+.footersocialicon> .h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.6%;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* ===========================Tab============ */
+
+
+
+@media(min-width: 768px) {
+    /* ==============Header============ */
+.headnav{
+    padding: 0 10px;
+}
+
+    .headimgnav3 {
+        display: none;
+    }
+
+    .menubar {
+        display: block;
+    }
+
+    .menubar ul {
+        display: flex;
+        width: 100%;
+    } 
+    .menubar ul li{
+        list-style: none;
+    padding: 0 14px;
+        white-space: nowrap;
+    }
+    /* =================Main Section========== */
+   .main{
+       display: flex;
+       flex-direction: row-reverse;  
+   }
+   #mainheading{
+    margin: 73px 19px 18px 40px;
+    text-align: start;
+}
+.mainpar{
+    margin: 0 0 25px 40px;
+    text-align: start;
+}
+.mainbutton{
+    text-align: start;
+    padding: 0;
+    margin-left: 40px;
+}
+   
+   .tababout{
+       display: flex;
+       align-items: center;
+     /* justify-content: ; */
+   }
+   .aboutlogotwo{
+       margin: 25px 0 84px 0;
+   }
+   .aboutcardparent{
+       display: flex;
+       margin-bottom: 120px;
+   }
+    .center
+    {
+        text-align: start;
+    }
+   .experiencepage{
+       display: flex;
+   }
+   .experienceparentcard{
+       display: flex;
+    }
+    .exparcardone{
+        margin: -25px 10px 0 0;
+    }
+/* ==================Team Member====================== */
+.employee{
+    display:block
+}
+.employee4{
+    display: none;
+}
+
+
+    /* ==============Our Work=============== */
+ .ourworkcardchild{
+     display: flex;
+ }
+
+
+
+
+ /* ==================Client Feedback======== */
+.clientfeedback .center{
+    text-align: center;
+}
+
+
+
+/* =============Our Blog============== */
+.ourblog h6 {
+    text-align: center;
+}
+.ourblog h4 {
+    text-align: center;
+}
+
+ 
+/* ================Contact Us================ */
+.contactcard{
+   display: flex;
+}
+.contactlogo{
+    left: 0px;
+}
+.messagebutton{
+    text-align: center;
+}
+.information{
+    text-align: center;
+}
+.googlemap{
+    margin: auto;
+}
+.clientgooglogo{
+    margin: auto;
+}
+
+
+/* ============Footer==================== */
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.footer1{
+    width: 210px;
+height: 171px;
+margin-top: 50px;
+}
+.footer2{
+    margin-right: 25px;
+}
+/* ================About=================== */
+.aboutcard{
+    width: 154px;
+}
+.aboutcard img{
+    width: 50px;
+    height: 50px;
+}
+/* ============Client====================== */
+.clientfeedback .h4 {
+    text-align: center;
+}
+.clientfeedback .h3{
+    text-align: center;
+}
+.authorname{
+    width: 100%;
+}
+/* ==================Blog====================== */
+.ourblog{
+padding:50px 15px  ;
+}
+.ourblog >h4{
+    margin: 10px 0;
+}
+
+
+.blog{
+    width: 100%;
+    justify-content: center;
+}
+.contactcardchild{
+    margin-left: 10px;
+}
+.sendmessage{
+    display: flex;
+}
+.googlemap{
+    width: 100%;
+}
+.googlemap img{
+    width: 100%;
+    height: 100%;
+
+}
+.footer{
+    padding: 30px 0 100px 0;
+}
+}
+
+
+
+/* ==========================Laptop========================= */
+@media(min-width: 1140px){
+
+
+    /* ===================Team Member================== */
+    .employee4
+    {
+     display: block;
+     }
+}
